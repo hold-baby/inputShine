@@ -1,20 +1,21 @@
 # inputShine
 [demo](https://hold-baby.github.io/inputShine/)
 
-#引入
+# 引入
 ```html
 // 在页面引入js
 <script type="text/javascript" src="dist/inputShine.min.js"></script>
-```
+...
+<script>
+	// var input = new inputShine(id, opt)
+	var white = new inputShine("white", {
+		shine : "white"
+	})
+</script>
 
-```babel
-var white = new inputShine("white", {
-	shine : "white"
-})
 ```
-#opt
+# opt
 ```js
-inputShine(id, opt)
 id: input的id
 opt : {
 	shine : "white" // 光点颜色
@@ -22,7 +23,7 @@ opt : {
 	borderColor : "white" // 输入框边框颜色
 }
 // 颜色可选值：
-white(默认), black, red, orange, yellow, green, young, blue,purple;
+white(默认) black red orange yellow green young blue purple;
 ```
-#注意
+# 注意
 为使效果更好，建议背景色使用深色系。
