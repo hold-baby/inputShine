@@ -5,9 +5,11 @@
 ```html
 // 在页面引入js
 <script type="text/javascript" src="dist/inputShine.min.js"></script>
-...
+
+、、、
+
 <script>
-	// var input = new inputShine(id, opt)
+	// var input = newl inputShine(id, opt)
 	var white = new inputShine("white", {
 		shine : "white"
 	})
