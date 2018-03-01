@@ -1,0 +1,39 @@
+{
+  "name": "input-shine",
+  "version": "0.1.2",
+  "description": "Make the input box more beautiful",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hold-baby/inputShine.git"
+  },
+  "keywords": [
+    "input",
+    "shine",
+    "canvas"
+  ],
+  "author": "hold-baby",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hold-baby/inputShine/issues"
+  },
+  "homepage": "https://github.com/hold-baby/inputShine#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-header": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.0",
+    "rollup": "^0.56.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-node-resolve": "^3.0.3"
+  }
+}

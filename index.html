@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>inputShine</title>
+	<style>
+		input[shine=shine] {
+		  border: 2px solid #5E6C77;
+		  font-size: 1.5em;
+		  padding: .25em .5em .3125em;
+		  color: #5E6C77;
+		  border-radius: .25em;
+		  background: transparent;
+		}
+		input[shine=shine]:focus {
+		  color: #A2ACB3;
+		  border-color: #A2ACB3;
+		}
+		::-webkit-input-placeholder {
+		  color: #5E6C77;
+		}
+
+		::-moz-placeholder {
+		  color: #5E6C77;
+		}
+
+		:-ms-input-placeholder {
+		  color: #5E6C77;
+		}
+
+		html, body {
+		  height: 100%;
+		  overflow: hidden;
+		}
+		body{
+			padding-top: 100px;
+		}
+		html {
+		  background: #282E33;
+		}
+	</style>
+	<style>
+		.inp-wrap{
+			display: inline-block;
+			margin-bottom: 20px;
+			margin-right: 20px;
+		}
+	</style>
+	<script type="text/javascript" src="dist/inputShine.min.js"></script>
+</head>
+<body>
+	<div class="inp-wrap">
+		<input type="text" id="white" placeholder="white"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="purple" placeholder="purple"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="blue" placeholder="blue"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="green" placeholder="green"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="red" placeholder="red"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="orange" placeholder="orange"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="yellow" placeholder="yellow"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="young" placeholder="young"/>
+	</div>
+	<div class="inp-wrap">
+		<input type="text" id="black" placeholder="black"/>
+	</div>
+	
+	<script type="text/javascript">
+		var white = new inputShine("white", {
+			shine : "white"
+		})
+		var purple = new inputShine("purple", {
+			shine : "purple"
+		})
+		var blue = new inputShine("blue", {
+			shine : "blue"
+		})
+		var green = new inputShine("green", {
+			shine : "green"
+		})
+		var red = new inputShine("red", {
+			shine : "red"
+		})
+		var orange = new inputShine("orange", {
+			shine : "orange"
+		})
+		var yellow = new inputShine("yellow", {
+			shine : "yellow"
+		})
+		var young = new inputShine("young", {
+			shine : "young"
+		})
+		var black = new inputShine("black", {
+			shine : "black"
+		})
+	</script>
+</body>
+</html>
