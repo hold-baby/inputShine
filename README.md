@@ -1,5 +1,6 @@
 # inputShine
-[demo]()
+[demo](https://hold-baby.github.io/inputShine/)
+
 #引入
 ```html
 // 在页面引入js
