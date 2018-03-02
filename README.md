@@ -1,7 +1,12 @@
 # inputShine
 [demo](https://hold-baby.github.io/inputShine/)
 
-# 引入
+# NPM
+```babel
+npm install input-shine
+```
+
+# 直接引入
 ```html
 // 在页面引入js
 <script type="text/javascript" src="dist/inputShine.min.js"></script>
@@ -28,4 +33,4 @@ opt : {
 white(默认) black red orange yellow green young blue purple;
 ```
 # 注意
-为使效果更好，建议背景色使用深色系。
+为使效果更好，建议input父元素背景色使用深色系，并且input背景色透明。
