@@ -50,7 +50,7 @@ var Random = {
 }
 
 /**
- * 创建input.keyup
+ * 创建input.keyup样式
  */
  var inpKeyUp = function(el, opt){
  	var textColor = "rgb(" + (opt.textColor ? rgb[opt.textColor] : rgb.white) + ")";

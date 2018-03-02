@@ -1,6 +1,6 @@
 {
   "name": "input-shine",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Make the input box more beautiful",
   "main": "dist/inputShine.js",
   "scripts": {
